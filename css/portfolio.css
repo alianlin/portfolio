@@ -1633,7 +1633,7 @@ nav {
   .container.is-scroll:before {
     content: "";
     display: block;
-    height: calc(160px + 8vh);
+    height: calc(160px + 15vh);
     width: 80vw;
     position: fixed;
     top: 0;
