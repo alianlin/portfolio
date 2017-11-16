@@ -1723,17 +1723,8 @@ nav {
           font-size: 0;
           text-align: left;
           width: 58%; }
-      .content .info_content .project.item p {
-        text-align: justify;
-        text-justify: inter-word; }
     .content .info_content.contact .information {
       margin: 10vh auto; }
-    @media (min-width: 840px) {
-      .content .info_content .mdl-grid.mdl-cell--6-col {
-        display: -webkit-inline-box;
-        display: -webkit-inline-flex;
-        display: -ms-inline-flexbox;
-        display: inline-flex; } }
 
 .slideswitch {
   display: none; }
