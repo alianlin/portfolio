@@ -1666,7 +1666,7 @@ nav {
   overflow: hidden; }
   .content .info_content {
     padding: 3vh 2vw;
-    font-size: 0.8rem;
+    font-size: 0.813rem;
     font-weight: 200; }
     .content .info_content a.text_link {
       color: #999999;
@@ -1723,6 +1723,8 @@ nav {
           font-size: 0;
           text-align: left;
           width: 58%; }
+      .content .info_content .project.item .text_link {
+        font-size: 0.8em; }
     .content .info_content.contact .information {
       margin: 10vh auto; }
 
