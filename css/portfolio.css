@@ -1499,7 +1499,7 @@ header {
     background-size: contain;
     width: 190px;
     height: 150px;
-    margin: 0 auto;
+    margin: 5px auto;
     text-align: right;
     position: relative; }
     header .logo:before {
