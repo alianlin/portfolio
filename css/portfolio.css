@@ -1498,7 +1498,7 @@ header {
     background: url(../images/logo.svg) no-repeat;
     background-size: contain;
     width: 190px;
-    height: 140px;
+    height: 150px;
     margin: 0 auto;
     text-align: right;
     position: relative; }
@@ -1604,7 +1604,7 @@ nav {
           opacity: 0; }
 
 .container_top {
-  height: 140px; }
+  height: 150px; }
 
 .container {
   height: auto;
@@ -1633,7 +1633,7 @@ nav {
   .container.is-scroll:before {
     content: "";
     display: block;
-    height: calc(140px + 15vh);
+    height: calc(150px + 15vh);
     width: 80vw;
     position: fixed;
     top: 0;
@@ -1653,7 +1653,7 @@ nav {
 
 .content {
   width: 80vw;
-  padding-top: calc(140px + 8vh);
+  padding-top: calc(150px + 8vh);
   height: auto;
   z-index: 0;
   -webkit-transform: translateX(-200vw);
