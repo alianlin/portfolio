@@ -1666,7 +1666,7 @@ nav {
   overflow: hidden; }
   .content .info_content {
     padding: 3vh 2vw;
-    font-size: 0.813rem;
+    font-size: 0.85rem;
     font-weight: 200; }
     .content .info_content a.text_link {
       color: #999999;
@@ -1911,13 +1911,11 @@ nav {
     visibility: visible; }
 
 #footer {
-  font-size: 0.45rem;
-  width: 80vw;
+  font-size: 0.7rem;
+  width: 100vw;
   text-align: center;
   height: 1.5em;
   line-height: 1.5em;
   position: fixed;
   background-color: rgba(255, 255, 255, 0.85);
-  left: 50%;
-  margin-left: -40vw;
   bottom: 0; }
