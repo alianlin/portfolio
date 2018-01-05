@@ -1524,7 +1524,7 @@ body {
   line-height: 1.5;
   color: #999999;
   font-weight: 300;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.03em;
   word-break: break-all; }
 
 body#page_body {
@@ -1740,7 +1740,7 @@ nav {
         height: 100%;
         -o-object-fit: cover;
         object-fit: cover; }
-        @media (max-width: 839px) and (min-width: 480px) {
+        @media (max-width: 1024px) {
           .info_content .project.item .thumbnail img {
             width: 100%;
             height: auto; } }
