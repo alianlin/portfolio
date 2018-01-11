@@ -2027,6 +2027,7 @@ nav {
     padding-right: 15px;
     text-align: right; }
     .info_content .timelines_content .timelines_time ul {
+      font-family: 'Lato';
       color: #b3b3b3;
       font-size: 0.85em;
       display: -webkit-box;
@@ -2089,7 +2090,6 @@ nav {
       .info_content .timelines_content .timelines_list {
         width: calc(100% - 60px); } }
     .info_content .timelines_content .timelines_list span {
-      font-family: 'Lato';
       display: block;
       font-size: 0.9em;
       color: #999999;
