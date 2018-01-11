@@ -2089,6 +2089,7 @@ nav {
       .info_content .timelines_content .timelines_list {
         width: calc(100% - 60px); } }
     .info_content .timelines_content .timelines_list span {
+      font-family: 'Lato';
       display: block;
       font-size: 0.9em;
       color: #999999;
