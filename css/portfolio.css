@@ -1497,6 +1497,84 @@ nav .arrow, .gotop .arrow {
     transform: rotate(45deg);
     top: 2px; }
 
+.loading {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  z-index: 999;
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #f7fbfc; }
+  .loading > div {
+    position: relative;
+    width: 200px;
+    height: auto;
+    margin: auto;
+    text-align: center; }
+    .loading > div #progress {
+      content: "";
+      -webkit-transform: skew(-10deg);
+      -ms-transform: skew(-10deg);
+      transform: skew(-10deg);
+      display: block;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      width: 0%;
+      height: 100%;
+      background: #f4d7e0;
+      z-index: -1; }
+    .loading > div img {
+      width: 200%;
+      margin-left: -50%; }
+    .loading > div .name {
+      position: absolute;
+      bottom: -5px;
+      right: 0px;
+      cursor: default;
+      display: inline-block;
+      font-family: 'Cormorant Garamond';
+      color: #4E4F4F;
+      font-size: 1.3rem;
+      text-align: right;
+      letter-spacing: 0.07em;
+      line-height: 0.85em; }
+      .loading > div .name > span {
+        display: block;
+        letter-spacing: 0.04em;
+        font-size: 0.8rem;
+        padding-right: 0.1em;
+        font-style: italic; }
+  .loading.fade-out {
+    opacity: 0;
+    left: -100vw;
+    -webkit-animation: fadeout 0.8s 0.5s backwards;
+    animation: fadeout 0.8s 0.5s backwards; }
+
+@-webkit-keyframes fadeout {
+  0% {
+    opacity: 1;
+    left: 0; }
+  100% {
+    opacity: 0;
+    left: 0; } }
+
+@keyframes fadeout {
+  0% {
+    opacity: 1;
+    left: 0; }
+  100% {
+    opacity: 0;
+    left: 0; } }
+
 iframe {
   border: none;
   outline: none;
@@ -1515,7 +1593,24 @@ iframe {
   position: absolute;
   top: 0;
   left: 0;
-  z-index: 1; }
+  z-index: 1;
+  opacity: 0; }
+  #iframe_result.fade-in {
+    opacity: 1;
+    -webkit-animation: fadein 0.5s 1s backwards;
+    animation: fadein 0.5s 1s backwards; }
+
+@-webkit-keyframes fadein {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+@keyframes fadein {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
 
 body {
   font-family: "Ryumin Light KL", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
