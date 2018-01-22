@@ -31,8 +31,8 @@
                 progress += random(1, 5);
 
                 // 随机进度不能超过 98%，以免页面还没加载完毕，进度已经 100% 了
-                if(progress > 90){
-                    progress = 90;
+                if(progress > 70){
+                    progress = 70;
                 }
 
                 $progress.style.width = progress + '%';
